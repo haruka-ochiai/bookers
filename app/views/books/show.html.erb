@@ -3,3 +3,7 @@
 
 <h2>Body</h2>
 <P><%= @book.body %></P>
+
+<%= link_to 'Back', :back %>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
